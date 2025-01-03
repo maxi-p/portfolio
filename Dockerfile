@@ -6,6 +6,9 @@ COPY package*.json ./
 
 RUN npm install
 
+# Giving user write permissions
+RUN mkdir -p /usr/src/app && chown -R node:node /usr/src/app
+
 USER node
 
 COPY --chown=node:node . .
