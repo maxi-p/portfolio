@@ -28,7 +28,13 @@ With Docker (prod):
 
 ```bash
 docker build -t portfolio .
-docker run -p 8080:3000 portfolio
+docker run -p 80:3000 portfolio
 ```
 
-You can insert any name for the image instead of "portfolio" and any port you wish to use for the app instead of 8080.
+To run in detached mode run:
+
+```
+docker run -d -p 80:3000 portfolio
+```
+
+You can insert any name for the image instead of "portfolio" and any port you wish to use for the app instead of 80.
