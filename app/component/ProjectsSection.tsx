@@ -38,7 +38,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Contra 4 Jungle Engine",
+    title: "Contra 4 Jungle Level",
     description:
       "Recreated a Jungle level of Contra 4 (a childhood favorite) in C++ with SFML graphics library.",
     image: "/images/projects/contra.jpg",

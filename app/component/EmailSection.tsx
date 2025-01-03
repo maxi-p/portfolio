@@ -54,10 +54,9 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new/recent grad jobs in software
-          engineering, data engineering, AI/ML, DevOps. Whether you have a
-          question or just saying hi, you are welcome to contact me, I always
-          answer my inbox.
+          I&apos;m currently looking for entry level jobs in software
+          engineering, data engineering, AI/ML, DevOps. Please be welcome to
+          reach out to me using the social media links below.
         </p>
         <div className="socials flex flex-row gap-2">
           <Link

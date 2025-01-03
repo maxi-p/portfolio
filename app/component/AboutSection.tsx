@@ -116,7 +116,7 @@ const AboutSection = () => {
             graduate with a Bachelor&apos;s degree in Computer Science. I
             recently completed a Software Engineering Internship at{" "}
             <a
-              href="https://www.mobile.beplayfuel.com/"
+              href="https://mobile.beplayfuel.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline rounded transition-colors"
