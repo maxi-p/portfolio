@@ -55,9 +55,15 @@ const TAB_DATA = [
         <li>AWS RDS</li>
         <li>AWS Route 53</li>
         <li>AWS IAM</li>
+        <li>AWS Redshift</li>
         <li>AWS CloudFront</li>
+        <li>AWS Cloudformation</li>
+        <li>AWS SNS</li>
+        <li>AWS SQS</li>
         <li>AWS Cognito</li>
         <li>AWS ECR</li>
+        <li>AWS Lamda</li>
+        <li>AWS Aurora</li>
       </ul>
     ),
   },
