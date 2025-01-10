@@ -43,7 +43,7 @@ const projectsData = [
       "Recreated a Jungle level of Contra 4 (a childhood favorite) in C++ with SFML graphics library.",
     image: "/images/projects/contra.jpg",
     tag: ["All"],
-    gitUrl: "https://github.com/maxi-p/Contra4-Jungle-Level",
+    gitUrl: "https://github.com/maxi-p/contra4",
     previewUrl: "",
   },
   {
