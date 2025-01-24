@@ -34,13 +34,11 @@ const TAB_DATA = [
         <li>Docker</li>
         <li>Spring (Boot/MVC/Web/Data)</li>
         <li>Next.js</li>
-        <li>Angular</li>
         <li>Redux</li>
         <li>MongoDB</li>
         <li>PostgreSQL</li>
         <li>MySQL</li>
         <li>Kafka</li>
-        <li>Redis</li>
       </ul>
     ),
   },
@@ -61,9 +59,7 @@ const TAB_DATA = [
         <li>AWS SNS</li>
         <li>AWS SQS</li>
         <li>AWS Cognito</li>
-        <li>AWS ECR</li>
         <li>AWS Lamda</li>
-        <li>AWS Aurora</li>
       </ul>
     ),
   },
@@ -76,6 +72,8 @@ const TAB_DATA = [
           University of Central Florida (Aug. 2022 - Dec. 2024)
           <br />
           Bachelor&apos;s of Science in Computer Science
+          <br />
+          Cumulative GPA 3.9
           <br />
           CS GPA 4.0
         </li>
