@@ -9,16 +9,13 @@ const TAB_DATA = [
     id: "languages",
     content: (
       <ul className="list-disc pl-2">
-        <li>JavaScript / TypeScript</li>
+        <li>C</li>
+        <li>C++</li>
         <li>Java</li>
-        <li>Python</li>
-        <li>C/C++</li>
-        <li>HTML</li>
-        <li>CSS</li>
         <li>SQL</li>
-        <li>Bash</li>
-        <li>GraphQL</li>
-        <li>Haskell</li>
+        <li>JavaScript / TypeScript</li>
+        <li>Python</li>
+        <li>HTML/CSS</li>
         <li>Kotlin</li>
       </ul>
     ),
@@ -30,15 +27,13 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>GIT</li>
         <li>Node.js</li>
-        <li>React.js</li>
         <li>Docker</li>
-        <li>Spring (Boot/MVC/Web/Data)</li>
-        <li>Next.js</li>
-        <li>Redux</li>
-        <li>MongoDB</li>
         <li>PostgreSQL</li>
         <li>MySQL</li>
-        <li>Kafka</li>
+        <li>Spring (Boot/MVC/Web/Data)</li>
+        <li>MongoDB</li>
+        <li>React.js</li>
+        <li>Redis</li>
       </ul>
     ),
   },
@@ -48,16 +43,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>AWS EC2</li>
-        <li>AWS VPC</li>
-        <li>AWS S3</li>
         <li>AWS RDS</li>
+        <li>AWS S3</li>
         <li>AWS Route 53</li>
         <li>AWS IAM</li>
-        <li>AWS Redshift</li>
-        <li>AWS CloudFront</li>
-        <li>AWS Cloudformation</li>
-        <li>AWS SNS</li>
-        <li>AWS SQS</li>
         <li>AWS Cognito</li>
         <li>AWS Lamda</li>
       </ul>
@@ -106,8 +95,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hi, I&apos;m Max. I&apos;m passionate about building web apps,
-            meeting like-minded people, and playing chess. <br />
+            Hi, I&apos;m Max. I&apos;m passionate about building clean{" "}
+            and durable software, computer science concepts, and{" "}
+            solving programming puzzles. Outside of programming, I like{" "}
+            playing chess.<br />
             I&apos;m a new{" "}
             <a
               href="https://www.ucf.edu/"
@@ -126,9 +117,7 @@ const AboutSection = () => {
               className="underline rounded transition-colors"
             >
               COMPETE bePlayFuel
-            </a>{" "}
-            where I got to contribute to development and beta release of the
-            future greatest sport social media app.
+            </a>
           </p>
           {pending ? <div>{/* Loading */}</div> : null}
           <div className="flex flex-row justify-start mt-8">

@@ -15,9 +15,20 @@ const projectsData = [
     gitUrl: "",
     previewUrl: "https://www.youtube.com/watch?v=Eqexx4eSJys",
   },
-
   {
     id: 2,
+    title: "VM Simulator",
+    description:
+      "A virtual machine that stores and executes a small instruction set. " +
+      "Written in C.",
+    image: "/images/projects/vm.png",
+    tag: ["All"],
+    gitUrl: "https://github.com/maxi-p/vn-cpu",
+    previewUrl: "",
+  },
+
+  {
+    id: 3,
     title: "Qvault",
     description:
       "PDF reader & note-taker web app. Services written using Spring Boot, Spring Web, & Spring Data.",
@@ -25,16 +36,6 @@ const projectsData = [
     tag: ["All"],
     gitUrl: "https://github.com/maxi-p/Qvault",
     previewUrl: "",
-  },
-  {
-    id: 3,
-    title: "COMPETE bePlayFuel",
-    description:
-      "Work project. bePlayFuel is a sport social network app that lets users COMPETE in their sports. Worked on the mobile app, the backend, and containerization.",
-    image: "/images/projects/compete.jpg",
-    tag: ["All"],
-    gitUrl: "",
-    previewUrl: "https://mobile.beplayfuel.com/",
   },
   {
     id: 4,
@@ -48,13 +49,13 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Live Chat App",
+    title: "COMPETE bePlayFuel",
     description:
-      "Java & JavaScript Live Chat web application. Build using WebSockets and Java Enterprise technologies such as Servlets and JDBC.",
-    image: "/images/projects/chat.jpg",
+      "Work project. bePlayFuel is a sport social network app that lets users COMPETE in their sports. Worked on the mobile app, the backend, and containerization.",
+    image: "/images/projects/compete.jpg",
     tag: ["All"],
-    gitUrl: "https://github.com/maxi-p/chat",
-    previewUrl: "",
+    gitUrl: "",
+    previewUrl: "https://mobile.beplayfuel.com/",
   },
   {
     id: 6,
